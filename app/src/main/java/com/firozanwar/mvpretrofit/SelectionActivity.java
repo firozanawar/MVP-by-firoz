@@ -7,7 +7,8 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.firozanwar.mvpretrofit.basicmvp.view.BasicMVPActivity;
-import com.firozanwar.mvpretrofit.mvpwithretrofit.MVPwithRetrofitActivity;
+import com.firozanwar.mvpretrofit.loginwithmvp.LoginWithMVPActivity;
+import com.firozanwar.mvpretrofit.mvpwithretrofit.view.MVPwithRetrofitActivity;
 
 public class SelectionActivity extends AppCompatActivity {
 
@@ -20,9 +21,15 @@ public class SelectionActivity extends AppCompatActivity {
         btn.setOnClickListener(v -> {
             startActivity(new Intent(SelectionActivity.this, BasicMVPActivity.class));
         });
+
         btn = findViewById(R.id.btn_mvp_retrofit);
         btn.setOnClickListener(v -> {
             startActivity(new Intent(SelectionActivity.this, MVPwithRetrofitActivity.class));
+        });
+
+        btn = findViewById(R.id.btn_login_with_mvp);
+        btn.setOnClickListener(v -> {
+            startActivity(new Intent(SelectionActivity.this, LoginWithMVPActivity.class));
         });
     }
 }

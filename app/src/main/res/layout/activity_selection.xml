@@ -26,14 +26,14 @@
             android:text="MVP with Retrofit2" />
 
         <Button
-            android:id="@+id/btn_video_adv"
+            android:id="@+id/btn_login_with_mvp"
             style="@style/Widget.AppCompat.Button.Colored"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:background="@android:color/holo_green_dark"
-            android:text="Advanced Integration"
-            android:visibility="gone" />
+            android:text="Login with MVP"
+            />
 
         <Button
             android:id="@+id/btn_video_pip"
