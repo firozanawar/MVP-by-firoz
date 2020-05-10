@@ -1,0 +1,58 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_basic_mvp"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_blue_light"
+            android:text="Basic MVP" />
+
+        <Button
+            android:id="@+id/btn_mvp_retrofit"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_orange_dark"
+            android:text="MVP with Retrofit2" />
+
+        <Button
+            android:id="@+id/btn_video_adv"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_green_dark"
+            android:text="Advanced Integration"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_video_pip"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_purple"
+            android:text="PIP Player"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btn_video_multiple"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:background="@android:color/holo_blue_light"
+            android:text="Multiple Video Player"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>
